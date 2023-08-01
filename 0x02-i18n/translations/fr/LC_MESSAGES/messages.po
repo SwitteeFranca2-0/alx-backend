@@ -3,12 +3,16 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-msgid ""home_title": "Bienvenue chez Holberton", "home_header: "Bonjour monde!"\n"
-msgstr ""
+
+msgid "home_title" 
+msgstr "Bienvenue chez Holberton"
+
+msgid "home_header"
+msgstr "Bonjour monde!"
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-08-01 17:29+0100\n"
-"PO-Revision-Date: 2023-08-01 17:29+0100\n"
+"POT-Creation-Date: 2023-08-02 00:36+0100\n"
+"PO-Revision-Date: 2023-08-02 00:36+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
