@@ -34,7 +34,7 @@ def get_locale() -> str:
         args = arg.split("=")
         query_dict[args[0]] = args[1]
     if "locale" in query_dict:
-        if query_dict["locale"] in app.config['LANGUAGES']:    
+        if query_dict["locale"] in app.config['LANGUAGES']:
             return query_dict["locale"]
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 
@@ -42,7 +42,7 @@ def get_locale() -> str:
 @app.route('/', strict_slashes=False)
 def hello() -> str:
     """The index html"""
-    return render_template('1-index.html')
+    return render_template('4-index.html')
 
 
 if __name__ == '__main__':
