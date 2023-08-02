@@ -11,8 +11,8 @@ app = Flask(__name__)
 class Config:
     """configuration class"""
     LANGUAGES: List = ["en", "fr"]
-    default_locale: str = "en"
-    default_timezone: str = "UTC"
+    BABEL_DEFAULT_LOCALE: str = "en"
+    BABEL_DEFAULT_TIMEZONE: str = "UTC"
 
 
 app.config.from_object(Config)
