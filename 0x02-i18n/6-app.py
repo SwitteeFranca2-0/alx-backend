@@ -28,9 +28,10 @@ def get_locale() -> str:
     query = request.args.get('locale')
     if query in app.config['LANGUAGES']:
         return query
-    query = g.user.get('locale')
-    if query in app.config['LANGUAGES']:
-        return query
+    if g.user:
+        query = g.user.get('locale')
+        if query in app.config['LANGUAGES']:
+            return query
     query = request.headers.get('locale')
     if query in app.config['LANGUAGES']:
         return query
